@@ -1,5 +1,5 @@
 # T02.1-CursoOnLine
-Se está desarrollando un sistema para gestionar cursos online. Para ello el primer paso es diseñar el tipo `CursoOnLine` que se describe a continuación e implementar el tipo con una clase. 
+Se está desarrollando un sistema para gestionar cursos online. Para ello el primer paso es diseñar el tipo `CursoOnLine` que se describe a continuación e implementar el tipo. 
 
 Cada curso tiene un identificador único que es una cadena alfanumérica única que lo distingue de otros cursos en la plataforma y está formado por tres letras seguidas de 5 dígitos (por ejemplo, COU00001). 
 
