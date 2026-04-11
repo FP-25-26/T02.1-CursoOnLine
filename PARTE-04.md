@@ -7,7 +7,8 @@ Se quieren añadir las siguientes operaciones al tipo `GestorCursos` para trabaj
 - `SortedMap<Integer, Integer> contarCursosPorMes()`: Cuenta el número de cursos por mes de impartición.
 - `Map<String, Integer> contarCursosGratuitosPorOrganizacion()`: Cuenta el número de cursos gratuitos impartidos por organización.
 - `SortedMap<LocalDate, List<CursoOnLine>> getCursosPorMesAño()`: Devuelve un `SortedMap` en el que las claves son los meses y los valores una lista con los cursos de ese mes y año. El representante canónico del mes es el día 1.
-- `SortedMap<Integer, Set<String>> getOrganizacionesPorDuracion()`: Devuelve un `SortedMap` donde cada clave representa la duración de los cursos, y cada valor es un conjunto con los nombres de las organizaciones que ofrecen cursos con esa duración. 
+- `SortedMap<Integer, Set<String>> getOrganizacionesPorDuracion()`: Devuelve un `SortedMap` donde cada clave representa la duración de los cursos, y cada valor es un conjunto con los nombres de las organizaciones que ofrecen cursos con esa duración.
+- `Map<String, CursoOnLine> getCursoMasEstudiantesPorOrganizacion ()`:Devuelve un `Map` en el que las claves son las organizaciones, y los valores el curso de esa organización con más estudiantes.
 - `SortedMap<Integer, Set<String>> getOrganizacionesPorNumCursosGratuitos()`: Devuelve un `SortedMap` donde cada clave representa el número de cursos gratuitos ofertados, y cada valor es un conjunto con los nombres de las organizaciones con ese número de cursos gratuitos. 
 
 
